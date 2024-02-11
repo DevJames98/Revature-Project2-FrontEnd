@@ -1,0 +1,186 @@
+.App {
+  text-align: center;
+  /* put background color to change that white form background */
+  background-color: var(--charcoal);
+}
+/* Used to set css variables */
+:root {
+  --darker-white: #fafafa;
+  --charcoal: #373737;
+  --custom-grey: #c8cbc7;
+  --custom-gold: #c0b283;
+  --custom-burgundy: #800022;
+}
+/* Used to change the color of the navbar */
+.navbar {
+  background-color: var(--custom-gold);
+}
+
+/* NavBar Brand */
+.navbar-light .navbar-brand {
+  color: var(--darker-white);
+  margin-left: 4%;
+  font-size: 1.3rem;
+  font-weight: bold;
+  width: 100vw;
+}
+.navbar-light .navbar-brand:hover {
+  color: var(--custom-burgundy);
+}
+/* Used to change the color of the navbar dropdown text */
+.navbar-light .navbar-nav .nav-link {
+  /* color: rgba(0,0,0,.5); */
+  color: var(--darker-white);
+  padding: 0.5rem 5rem;
+  font-size: 1.3rem;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  /* color: rgba(0,0,0,.5); */
+  /* color: #fafafa; */
+  color: var(--custom-burgundy);
+}
+/* Used to change the default color of the links in the navbar */
+.link {
+  color: var(--darker-white);
+  display: block;
+  /* padding: 0.5rem 1rem; */
+  padding: 0.5rem 5rem;
+  font-size: 1.3rem;
+}
+.link:hover {
+  color: var(--custom-burgundy);
+  text-decoration: none;
+}
+/* dropdown link styling */
+.dropdown-link {
+  color: var(--charcoal);
+}
+.dropdown-link:hover {
+  color: var(--custom-burgundy);
+  text-decoration: none;
+}
+/* color for html document */
+html {
+  background-color: var(--charcoal);
+}
+#topNavBar {
+  border-bottom: 1px solid var(--darker-white);
+}
+/* try to makr sticky navbar */
+/* #bottomNavBar {
+  position: fixed;
+  /* top: 0; */
+/* width: 100%;
+} */
+.navbar-img {
+  height: 3rem;
+  width: 3rem;
+  padding: 0.5rem 0.5rem;
+}
+#logo {
+  height: 3rem;
+  width: 6rem;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+/* carousel image */
+.carousel-item > img {
+  width: 100vw;
+  height: 85vh;
+}
+#footer {
+  background-color: var(--charcoal);
+  color: var(--custom-grey);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+.display {
+  width: 100vw;
+  /* background-color: var(--darker-white); */
+  background-color: var(--custom-grey);
+  /* margin-left: 5vw; */
+  margin: auto;
+  padding-bottom: 2.5rem;
+}
+form {
+  background-color: var(--darker-white);
+  margin: auto;
+  width: 95vw;
+}
+
+h2 {
+  color: #c0b283;
+  text-align: center;
+  text-shadow: 0 0 3px #ff0000, 0 0 5px black;
+  padding-top: 2rem;
+}
+
+h4 {
+  color: #c0b283;
+  text-align: center;
+  text-shadow: 0 0 3px #ff0000, 0 0 5px black;
+  padding-bottom: 2rem;
+}
+
+h4 span {
+  color: white;
+}
+
+input[type="password"]:focus {
+  background-color: #c0b283;
+  border: 2px solid red;
+}
+
+input[type="text"]:focus {
+  background-color: #c0b283;
+  border: 2px solid red;
+}
+
+.signUpButton {
+  color: #800022;
+  padding: 15px 25px;
+  font-size: 20;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  background-color: #c0b283;
+  border: solid black;
+  border-radius: 15px;
+  box-shadow: 0 9px grey;
+}
+
+.signUpButton:hover {
+  background-color: 800022;
+}
+
+.signUpButton:active {
+  background-color: #800022;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.signUpForm {
+  box-shadow: 10px 10px 5px #c0b283;
+}
+
+/* make classes for each page i want to have bColor to black */
+/* 
+Colors used for this project
+Regular White - #FFFFFF
+Slightly Darker White - #FAFAFA
+Charcoal - #373737
+Grey - #C8CBC7
+Gold - #C0B283
+Burgundy - #800022
+*/
